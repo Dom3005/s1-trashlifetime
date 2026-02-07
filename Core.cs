@@ -49,7 +49,7 @@ namespace S1_TrashLifetime
 
             if(TimeManager.Instance != null && Core.dontDeleteStreettrashEntry.Value)
             {
-                if (Math.Abs(TimeManager.Instance.CurrentTime - TimeManager.SelectedWakeTime) <= 5)
+                if (Math.Abs(TimeManager.Instance.CurrentTime - TimeManager.WakeTime) <= 3)
                     return;
             }
 
