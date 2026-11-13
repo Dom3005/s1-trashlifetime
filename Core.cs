@@ -38,7 +38,7 @@ namespace S1_TrashLifetime
         }
     }
 
-    [HarmonyPatch(typeof(TrashItem), "Start")]
+    [HarmonyPatch(typeof(TrashItem), "Awake")]
     public class TrashItemPatch
     {
         private static void Postfix(TrashItem __instance)
@@ -49,7 +49,7 @@ namespace S1_TrashLifetime
 
             if(TimeManager.Instance != null && Core.dontDeleteStreettrashEntry.Value)
             {
-                if (Math.Abs(TimeManager.Instance.CurrentTime - TimeManager.WakeTime) <= 3)
+                if (Math.Abs(TimeManager.Instance.CurrentTime - SleepController.WakeTime) <= 3)
                     return;
             }
 
