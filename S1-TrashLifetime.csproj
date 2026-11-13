@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<GamePath>D:\SteamLibrary\steamapps\common\Schedule I</GamePath>
 		<TargetFramework>net6.0</TargetFramework>
@@ -7,8 +7,8 @@
 		<RootNamespace>S1_TrashLifetime</RootNamespace>
 		<LangVersion>default</LangVersion>
 		<IsPackable>false</IsPackable>
-		<AssemblyVersion>1.3.0.0</AssemblyVersion>
-		<FileVersion>1.3.0.0</FileVersion>
+		<AssemblyVersion>1.3.2.0</AssemblyVersion>
+		<FileVersion>1.3.2.0</FileVersion>
 		<NeutralLanguage>en-US</NeutralLanguage>
 		<AssemblyName>S1_TrashLifetime</AssemblyName>
 		<LangVersion>latest</LangVersion>

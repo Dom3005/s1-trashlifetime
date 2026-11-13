@@ -5,7 +5,7 @@ using UnityEngine;
 using System.Collections;
 using Il2CppScheduleOne.GameTime;
 
-[assembly: MelonInfo(typeof(S1_TrashLifetime.Core), "TrashLifetime", "1.3.0", "Dom3005", null)]
+[assembly: MelonInfo(typeof(S1_TrashLifetime.Core), "TrashLifetime", "1.3.2", "Dom3005", null)]
 [assembly: MelonGame("TVGS", "Schedule I")]
 
 namespace S1_TrashLifetime
